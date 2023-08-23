@@ -1,75 +1,85 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://lucas.brandstaettter.tech/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Lucas Brandstaetter',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Lucas Brandstaetter | IT/OT Security Export`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `OT Security expertise from Austria.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@roang_zero1`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/Roang-zero1`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/lucasbrandstaetter/`,
+    // Optional: Mastodon account URL
+    mastodon: `https://cyberplace.social/@Roang`,
+    // Optional: Matrix account URL
+    matrix: `https://matrix.to/#/@roang:brandstaetter.tech`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I'm a seasoned IT/OT security expert with 7 years in the field. My days are dedicated to fortifying industrial landscapes. When off-duty, I code for open source projects, go out for rides on my bike and find creative escape in my camera.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Zero Downtime',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A awareness board game developed to increase security awareness in IT and OT organizations',
+        link: 'https://limessecurity.com/en/academy/awt-103/',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'CCCV Hub',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'Centralized HUB for CCCV events',
+        link: 'https://git.cccv.de/hub/hub',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Dotfiles',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'My personal dotfiles',
+        link: 'https://github.com/Roang-zero1/dotfiles',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Limes Security GmbH',
+        description: 'IT/OT Security Specialist, Oct 2016 - present',
+        link: 'https://limessecurity.com/',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Fabasoft',
+        description: 'Technical Support Specialist, Apr 2014 - Aug 2016',
+        link: 'https://www.fabasoft.com/',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'x-tention Informationstechnologie GmbH',
+        description: 'Computer systems designer and analyst, Jun 2009 - Aug 2013',
+        link: 'https://x-tention.com/',
+      },
+      {
+        name: 'Siemens VAI Metals Technologies GmbH & Co',
+        description: 'Computer systems designer, Nov 2007 - May 2009',
+        link: 'http://www.primetals.com/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'IT/OT Security',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+        '7 years experience in supporting OT environments in their IT Security journeys'
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Languages & Frameworks',
+        description:
+          'JavaScript (ES6+), Python, Node.js, Django',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker, Amazon Web Services (AWS), Github Actions (CI / CD)',
       },
     ],
   },
