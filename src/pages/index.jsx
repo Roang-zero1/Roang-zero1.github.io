@@ -47,6 +47,8 @@ export const pageQuery = graphql`
         author
         github
         linkedin
+        mastodon
+        matrix
         projects {
           name
           description

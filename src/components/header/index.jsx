@@ -21,6 +21,8 @@ const Header = ({ metadata = {}, noBlog = false }) => {
   const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
+  const mastodon = get(metadata, 'mastodon', false);
+  const matrix = get(metadata, 'matrix', false);
 
   return (
     <div className={classes.wrapper}>
@@ -56,6 +58,20 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             <li className={classes.item}>
               <a className={classes.link} href={linkedin}>
                 LinkedIn
+              </a>
+            </li>
+          )}
+          {mastodon && (
+            <li className={classes.item}>
+              <a className={classes.link} href={mastodon}>
+                Mastodon
+              </a>
+            </li>
+          )}
+          {matrix && (
+            <li className={classes.item}>
+              <a className={classes.link} href={matrix}>
+                Matrix
               </a>
             </li>
           )}
