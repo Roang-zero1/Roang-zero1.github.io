@@ -12,5 +12,8 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('tailwind-dracula')(),
+  ],
+  darkMode: 'class',
 };

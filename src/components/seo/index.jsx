@@ -26,6 +26,7 @@ const SEO = ({ description, lang, meta, title }) => {
     <Helmet
       htmlAttributes={{
         lang,
+        class: "dark"
       }}
       title={finalTitle}
       meta={[
